@@ -3,10 +3,11 @@ public class Main{
 public static void main(String[],args) {
     Product p = new Product();
 
-    int ans = p.product(x: 10, y: 20);
-    int ans1 = p.product(x: 10, y:2 0, z: 30);
+    int ans = p.product(10,  20);
 
-    int ans3 = p.product(x: 1.0, y: 2.0);
+    int ans1 = p.product(10,  20,  30);
+
+    int ans3 = p.product(1.0,2.0);
 
     System.out.println(ans+" "+ans1+" "+ans3);
 
