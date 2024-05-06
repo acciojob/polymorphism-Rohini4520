@@ -13,7 +13,7 @@ public static void main(String[],args) {
 }
 
 
-   static class Product {
+   public static class Product {
        public int product(int x, int y) {
        return x*y;
 
